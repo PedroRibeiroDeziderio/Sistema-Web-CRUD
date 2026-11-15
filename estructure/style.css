@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+    display: flex;           /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    min-height: 100vh;       /* Faz o body ter 100% da altura da tela */
+}
+
+#central {
+    width: 700px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: rgb(133, 133, 133);
+
+    border-radius: 11px;
+    border: 2px solid rgb(255, 255, 255);
+    
+    text-align: center;
+}
+
+.item{
+    display: flex;           /* Coloca a .desc e o <p> lado a lado */
+    align-items: center;     /* Alinha os dois no meio na vertical */
+    justify-content: center; /* Centraliza o conjunto dentro do .item */
+    gap: 60%;
+    margin: 25px; 
+}
+
+.preco{
+    font-size: 20px;
+}
+
+.quant{
+    font-size: 15px;
+}
